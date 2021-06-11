@@ -122,12 +122,12 @@ $ openssl req -new -sha256 -engine tpm2tss -keyform engine -key mykey -out my.cs
 ```
 Fill the sections as you need to create the Certificate Signing Request,
 
-Example to Renault SAS:
+Example to Big_Company SAS:
 ```
 Common Name (CN)	Sensor with Optiga TPM N: 0001
 Organizational Unit (OU)	DI-RS CyberSecurity
-Organization (O)	Renault SAS
-Locality (L)	Paris
-State (ST)	Paris
-Country (C)	FR
+Organization (O)	Big Company SAS
+Locality (L)	New York
+State (ST)	New York
+Country (C)	USA
 ```
